@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sagarkhurana.quizforfun"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizForFun" >
+        <activity android:name="com.sagarkhurana.quizforfun.GeographyOrLiteratureQuizActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.FinalResultActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.MathQuizActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.EditPasswordActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.HistoryActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.RuleActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.QuizOptionActivity" />
+        <activity android:name="com.sagarkhurana.quizforfun.RegisterActivity" />
+        <activity
+            android:name="com.sagarkhurana.quizforfun.LoginActivity"
+            android:theme="@style/splashScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sagarkhurana.quizforfun.MainActivity" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
