@@ -2,9 +2,9 @@
 
 ## Contributors
 
-- Developers from [CSE(AIML), 5th semester]
-- 1. **Souradeep Dutta {12021002019065,70}**,
-- 2. **Ayan Ghosh{12021002016064, 36}**
+- Developers from [CSE(AIML), 5th semester] :
+- 1. **Souradeep Dutta { 12021002019065 ,70 }**,
+- 2. **Ayan Ghosh{ 12021002016064 , 36}**
 
 
 ## Introduction
